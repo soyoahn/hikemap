@@ -1,0 +1,137 @@
+{
+  "trails": [
+    {
+      "id": "1",
+      "name": "Mount Si",
+      "city": "North Bend",
+      "state": "WA",
+      "difficulty": "Intermediate",
+      "length": 8,
+      "elevation_gain": 3150,
+      "description": "Mount Si is a popular hiking destination...",
+      "image_url": "https://example.com/mount-si.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Rattlesnake Ledge",
+      "city": "North Bend",
+      "state": "WA",
+      "difficulty": "Easy",
+      "length": 4,
+      "elevation_gain": 1160,
+      "description": "Rattlesnake Ledge offers stunning views of the surrounding mountains...",
+      "image_url": "https://example.com/rattlesnake-ledge.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Angel's Landing",
+      "city": "Springdale",
+      "state": "UT",
+      "difficulty": "Difficult",
+      "length": 5.4,
+      "elevation_gain": 1488,
+      "description": "Angel's Landing is one of the most famous hikes in Zion National Park...",
+      "image_url": "https://example.com/angels-landing.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Half Dome",
+      "city": "Yosemite Valley",
+      "state": "CA",
+      "difficulty": "Very Difficult",
+      "length": 14.2,
+      "elevation_gain": 4800,
+      "description": "The Half Dome hike is an iconic trek in Yosemite National Park...",
+      "image_url": "https://example.com/half-dome.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Grand Canyon Rim-to-Rim",
+      "city": "Grand Canyon Village",
+      "state": "AZ",
+      "difficulty": "Very Difficult",
+      "length": 21,
+      "elevation_gain": 4380,
+      "description": "The Rim-to-Rim hike takes you from one side of the Grand Canyon to the other...",
+      "image_url": "https://example.com/grand-canyon-rim-to-rim.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane.smith@example.com"
+    },
+    {
+      "id": "3",
+      "username": "mike_jones",
+      "email": "mike.jones@example.com"
+    },
+    {
+      "id": "4",
+      "username": "lisa_wang",
+      "email": "lisa.wang@example.com"
+    },
+    {
+      "id": "5",
+      "username": "chris_perez",
+      "email": "chris.perez@example.com"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "trail_name": "Mount Si",
+      "user_id": "1",
+      "username": "john_doe",
+      "rating": 5,
+      "comment": "Amazing hike! Highly recommend."
+    },
+    {
+      "id": "2",
+      "trail_name": "Mount Si",
+      "user_id": "2",
+      "username": "jane_smith",
+      "rating": 4,
+      "comment": "Great views, but quite crowded."
+    },
+    {
+      "id": "3",
+      "trail_name": "Angel's Landing",
+      "user_id": "3",
+      "username": "mike_jones",
+      "rating": 5,
+      "comment": "Incredible experience!"
+    },
+    {
+      "id": "4",
+      "trail_name": "Half Dome",
+      "user_id": "4",
+      "username": "lisa_wang",
+      "rating": 5,
+      "comment": "Challenging but worth it!"
+    },
+    {
+      "id": "5",
+      "trail_name": "Grand Canyon Rim-to-Rim",
+      "user_id": "5",
+      "username": "chris_perez",
+      "rating": 4,
+      "comment": "Breathtaking views!"
+    },
+    {
+      "id": "6",
+      "trail_name": "Half Dome",
+      "user_id": "2",
+      "username": "jane_smith",
+      "rating": 4,
+      "comment": "This hike was challenging but rewarding!"
+    }
+  ]
+}
+
