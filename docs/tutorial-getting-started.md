@@ -16,8 +16,8 @@ These steps assume you're on a supported version of Microsoft Windows and suppor
 
 To test your development system, follow these steps:
 
-1. In a web browser, go to https://github.com/soyoahn/hikemap and fork the hikemap repo. 
-2. Open GitHub Desktop and clone the hikemap repo to get a local copy on your computer.
+1. In a web browser, go to [Hikemap repo](https://github.com/soyoahn/hikemap) and fork the repo. 
+2. Open GitHub Desktop and clone the `hikemap` repo to get a local copy on your computer.
 3. Open a PowerShell command window and go to the `hikemap/json-db directory`: 
 
     ```shell
