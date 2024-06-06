@@ -27,7 +27,7 @@ To test your development system, follow these steps:
     ```shell
     .\start-server.bat
     ``` 
-3.  Check that your development system is set up correctly. You should see something like the following output: 
+    If your development system is set up correctly, you should see something like the following output: 
     ```shell
     JSON Server started on PORT :3000
     Watching hikemap-db.json...
@@ -57,12 +57,16 @@ To test your development system, follow these steps:
     "elevation_gain": 3150,
     "description": "Mount Si is a popular hiking de...
     ```
-    You must succeed here before you can continue with any other tests or actions on Hikemap. If you don't see this output, troubleshoot the error before attempting  other tutorials.
+    **If you get this output, you've completed this tutorial successfully.** You can continue running any other Hikemap tutorial.
     
-    Tips for troubleshooting: 
+    If you don't see this output, you must troubleshoot the issue before you can try other tutorials.
+
+    <details>
+    <summary><b>Tips for troubleshooting</b></summary>
+        
     1. Check your commands for typos
     2. Check that you're in the correct directory
     3. Look up any error messages to verify that all prerequisite software was installed correctly
     4. Check that all prerequisite software is up to date
-    
-    **If you see first hiking trail from the service, you're ready to continue with any of our other tutorials.**
+    </details>
+        
