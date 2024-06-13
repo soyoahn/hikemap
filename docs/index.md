@@ -29,7 +29,7 @@ To run a few basic CRUD functions, all you need is a Github account and the foll
 
 💡**Try it out!** Get lists of hikes, users, and reviews by querying our sample database in the following tutorials:
 
-* [Tutorial: Getting Started](tutorial-gettingstarted.html)
+* [Tutorial: Getting Started](tutorial-getting-started.html)
 
 The sample database used in these tutorials is [hikemap-db.json](../json-db/hikemap-db.json).
 
