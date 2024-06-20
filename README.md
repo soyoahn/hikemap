@@ -1,7 +1,9 @@
 # hikemap
 
 # 🍎 What's this? 
-The purpose of this githup repo is to provide a simple way to exercise writing REST API documentation in a public repo. After this, I'll have gained the confidence to contribute to actual open source documentation! 
+The purpose of this githup repo is to provide a simple way to exercise writing REST API documentation in a public repo. 
+
+After this, the plan is to have gained enough confidence to contribute to some actual open source documentation! 
 
 # This is not "actual" documentation? 
 No, Hikemap is a fictitious service that uses a simple json db and json-server to read, add, and update hiking trails, users, and trail reviews added by those users. 
