@@ -2,17 +2,12 @@
 layout: page
 ---
 
-# Set up your dev environment
+# Get reviews by trail name
 
-These steps assume you're on a supported version of Microsoft Windows and supported versions of the following software installed:
-* [GitHub Desktop](https://desktop.github.com)
-    * You'll need a [GitHub account](https://github.com)
-* [Node.js](https://nodejs.org/en/)
-* [json-server](https://www.npmjs.com/package/json-server)
-* [Postman](https://www.postman.com/downloads/)
-* [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4)
+Before you begin, be sure you've done the first tutorial: [Set up your development environment](tutorial-getting-started.html)
 
-## Test your development system
+
+## Get 
 
 To test your development system, follow these steps:
 
