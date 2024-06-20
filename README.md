@@ -8,9 +8,8 @@ After this, the plan is to have gained enough confidence to contribute to some a
 # This is not "actual" documentation? 
 No, Hikemap is a fictitious service that uses a simple json db and json-server to read, add, and update hiking trails, users, and trail reviews added by those users. 
 
-Track favorite hikes and discover new trails based on location and difficulty
-
-# 🥾 The sample service and API: Hikemap
+# 🥾 Hikemap, a mock (but working!) API
+Track favorite hikes and discover new trails based on location and difficulty: 
 [About Hikemap](docs/about.html)
 
 # Start here
