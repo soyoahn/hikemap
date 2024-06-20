@@ -15,6 +15,9 @@ Track favorite hikes and discover new trails based on location and difficulty
 
 # Start here
 Best way to learn is by doing. Here's the speedrun to quickly get you familiar with everything that Hikemap offers: 
+
 1️⃣ Set up your dev environment and run your first hikemap curl command: [Tutorial: Getting Started](tutorial-getting-started.html)
+
 2️⃣ Get familiar with the three endpoints: `trails` `users` `reviews` by looking at our sample json db: [hikemap-db.json](https://github.com/soyoahn/hikemap/blob/main/json-db/hikemap-db.json).
+
 3️⃣ Try the other tutorials listed in [Hikemap Web API Overview](index.html)
