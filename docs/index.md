@@ -29,9 +29,9 @@ To run a few basic CRUD functions, all you need is a Github account and the foll
 
 💡**Try it out!** Get lists of hikes, users, and reviews by querying our sample database in the following tutorials:
 
-* [Tutorial: Getting Started](https://github.com/soyoahn/hikemap/blob/main/json-db/hikemap-db.json)
+* [Tutorial: Getting Started](tutorial-getting-started.html)
 
-The sample database used in these tutorials is [hikemap-db.json](../json-db/hikemap-db.json).
+The sample database used in these tutorials is [hikemap-db.json](https://github.com/soyoahn/hikemap/blob/main/json-db/hikemap-db.json).
 
 # Developing interactions with hikes, reviews, and users
 Use our tutorials to understand how to access these core resources: 
