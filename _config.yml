@@ -1,0 +1,5 @@
+title: Hikemap REST API
+description: Fictitious project to get some practice with GitHub. 
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
