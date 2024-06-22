@@ -2,6 +2,7 @@
 layout: page
 ---
 [< 🏠: Back to API Overview](index.html)
+
 ![Sign showing icons of two hikers](images/hiking.webp)
 
 With Hikemap, you can track favorite hiking trails and discover new trails based on location and difficulty.

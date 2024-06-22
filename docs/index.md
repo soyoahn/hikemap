@@ -12,9 +12,8 @@ To run a few basic CRUD functions on the Hikemap API, all you need is a Github a
 * PowerShell
 * json-server and cURL
 
-💡**Try it out!** Follow this tutorial to make your first Hikemap API call to our sample database:
-
-* [Tutorial: Getting Started](tutorial-getting-started.html)
+**Try it out!** Follow this tutorial to make your first Hikemap API call to our sample database:
+* [Set up your development environment](tutorial-getting-started.html)
 
 # Development
 Then, use these further tutorials to understand how to do POST and PUT methods on these resources:
