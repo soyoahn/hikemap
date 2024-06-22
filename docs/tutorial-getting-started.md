@@ -4,12 +4,11 @@ layout: page
 
 # Set up your dev environment
 
-These steps assume you're on a supported version of Microsoft Windows and supported versions of the following software installed:
+These steps assume you're on a supported version of Microsoft Windows and have the following software installed:
 * [GitHub Desktop](https://desktop.github.com)
     * You'll need a [GitHub account](https://github.com)
 * [Node.js](https://nodejs.org/en/)
 * [json-server](https://www.npmjs.com/package/json-server)
-* [Postman](https://www.postman.com/downloads/)
 * [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4)
 
 ## Test your development system
@@ -18,7 +17,7 @@ To test your development system, follow these steps:
 
 1. In a web browser, go to [Hikemap repo](https://github.com/soyoahn/hikemap) and fork the repo. 
 2. Open GitHub Desktop and clone the `hikemap` repo to get a local copy on your computer.
-3. Open a PowerShell command window and go to the `hikemap/json-db directory`: 
+3. Open a PowerShell command window and go to the `hikemap/json-db` directory: 
 
     ```shell
     cd <your GitHub repo workspace>/hikemap/json-db

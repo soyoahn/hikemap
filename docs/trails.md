@@ -3,7 +3,7 @@ layout: page
 ---
 # `trails` resource
 
-Endpoint
+## Endpoint
 
 ```shell
 {server_url}/trails
@@ -31,33 +31,20 @@ Sample `trails` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `id` | number | The ID of the hiking trail  |
+| `id` | number | Unique numerical ID |
 | `name` | string | Display name of hiking trail |
 | `city` | string | City name |
 | `state` | string | State name (U.S.) |
-| `difficulty` | string | Difficulty rating. Values can be: `Easy`, `Medium`, `Difficult`, and `Extremely Difficult` |
-| `length` | number | Length of trail in miles, roundtrip |
-| `elevation_gain` | number | Total elevation gain for the trail, roundtrip  |
+| `difficulty` | string | Difficulty rating. Values can be: <ul><li>`Easy`</li><li>`Medium`</li><li>`Difficult`</li><li>`Very Difficult`</li></ul> |
+| `length` | number | Length of trail in miles (mi), roundtrip |
+| `elevation_gain` | number | Total elevation gain for the trail in feet (ft), roundtrip  |
 | `description` | string | Short description of the trail |
 | `image_url` | string | Full web url |
 
 ## Operations
 
-The `trails` resource supports the following operations.
+The `trails` resource supports the following operations:
 
-## READ (GET)
-
-* [Get trail by ID](#resource-properties)
-* [Get trail review by user ID](#resource-properties)
-* [Get trail review by trail name](#resource-properties)
-
-## CREATE (POST)
-
-* [Add a user](tutorial-create-task.md/)
-* [Add a trail](tutorial-create-task.md/)
-* [Add a review](tutorial-create-task.md/)
-
-## UPDATE (PUT/PATCH)
-
-* [Update a trail](update-task-with-patch.md)
-* [Update a review](update-task-with-patch.md)
+* [Get trail by ID](#resource-properties) `GET`
+* [Add a trail](tutorial-create-task.md/) `POST`
+* [Update a trail](update-task-with-patch.md) `PUT`
