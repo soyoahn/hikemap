@@ -16,8 +16,7 @@ Before you begin:
  ```
 
 ## By name
-> [!IMPORTANT]
-> You must URL encode `name` values.
+💡<span style="color:orange">**Important:**</span> You must URL encode `name` values.
 
 For example for the `Half Dome` value, use `Half%20Dome`.
 

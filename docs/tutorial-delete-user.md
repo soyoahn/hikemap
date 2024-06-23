@@ -27,6 +27,7 @@ http://localhost:3000/users/2
 ```
 
 ## Response codes
+
 | Status | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | OK | The request has been fulfilled and the requested resource has been deleted. |

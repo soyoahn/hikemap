@@ -16,8 +16,7 @@ Before you begin:
  ```
 
 ## Get reviews by trail name
-> [!IMPORTANT]
-> You must URL encode `trail_name` values.
+💡<span style="color:orange">**Important:**</span> You must URL encode `trail_name` values.
 
 For example for the `Half Dome` value, use `Half%20Dome`.
 
