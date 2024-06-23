@@ -41,5 +41,5 @@ Sample `reviews` resource:
 
 The `reviews` resource supports the following operations.
 
-* [Get reviews by trail name or username](tutorial-get-reviews.html) `GET`
-* [Edit a review](tutorial-update-review.html) `PUT`
+  * [Get reviews by trail name or username](tutorial-get-reviews.html) `GET`
+  * [Edit a review](tutorial-update-review.html) `PUT``

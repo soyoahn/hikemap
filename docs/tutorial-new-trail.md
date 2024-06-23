@@ -12,11 +12,12 @@ The request body must include all attributes for the new trail.
 `{server_url}/trails`
 
 ## Request headers
-Accept all default headers in Postman. 
+Accept all default headers in Postman.
 
 | Header Parameter |  Value | Description |
 | -------------- | ------ | ------------ |
-| Accept | application/json | **Required.** This is the expected response data type.| 
+| Accept | application/json | **Required.** This is the expected response data type.|
+
 ## Request body
 
 Specify a JSON representation of the [`trails`](trails.html) object.

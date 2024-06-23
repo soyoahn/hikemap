@@ -47,5 +47,5 @@ Sample `trails` resource:
 
 The `trails` resource supports the following operations:
 
-* [Get trail by ID](tutorial-get-trails-by-attribute.html) `GET`
-* [Add a trail](tutorial-new-trail.html) `POST`
+  * [Get trails by attribute](tutorial-get-trails-by-attribute.html) `GET`
+  * [Add a trail](tutorial-new-trail.html) `POST`

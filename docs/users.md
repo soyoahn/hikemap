@@ -35,5 +35,4 @@ Sample `users` resource:
 
 The `users` resource supports the following operations.
 
-* [Get users by ID, username, or email](#resource-properties) `GET`
-* [Create a user](tasks-create-task.md/) `POST`
+  * [Remove a user](tutorial-delete-user.html) `DELETE`
