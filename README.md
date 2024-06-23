@@ -6,7 +6,7 @@
 # This is not "actual" documentation? 
 No. Hikemap is a fictitious service that uses a simple json db and json-server to read, add, and update hiking trails, users, and trail reviews added by those users.
 
-# The sample service and API: Hikemap
+# The Hikemap sample service and API
 
 The best way to learn is by doing. To speedrun learning everything that Hikemap offers:
 
