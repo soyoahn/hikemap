@@ -18,7 +18,7 @@ Contains hiking trail info and stats.
 Sample `trails` resource:
 
 ```js
-{
+    {
       "id": "1",
       "name": "Mount Si",
       "city": "North Bend",
@@ -27,8 +27,8 @@ Sample `trails` resource:
       "length": 8,
       "elevation_gain": 3150,
       "description": "Mount Si is a popular hiking destination...",
-      "image_url": "https://example.com/mount-si.jpg"
-    },
+      "image_url": "https://example.com/mount-si.jpg"   
+    }
 ```
 
 | Property name | Type | Description |
@@ -47,6 +47,5 @@ Sample `trails` resource:
 
 The `trails` resource supports the following operations:
 
-* [Get trail by ID](#resource-properties) `GET`
-* [Add a trail](tutorial-create-task.md/) `POST`
-* [Update a trail](update-task-with-patch.md) `PUT`
+* [Get trail by ID](tutorial-get-trails-by-attribute.html) `GET`
+* [Add a trail](tutorial-new-trail.html) `POST`

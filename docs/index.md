@@ -4,7 +4,7 @@ layout: page
 Last Updated: 2024-06-22
 
 # Hikemap Web API Overview
- Hikemap resources include trails, reviews, and users.
+ Hikemap resources include `trails`, `reviews`, and `users`.
  
  For details about hikemap's features, see [About Hikemap](about.html).
 
