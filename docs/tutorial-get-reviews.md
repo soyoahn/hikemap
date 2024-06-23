@@ -19,10 +19,9 @@ Before you begin:
 💡<span style="color:orange">**Important:**</span> You must URL encode `trail_name` values.
 
 For example for the `Half Dome` value, use `Half%20Dome`.
-|             |                                                               |
-|-------------|---------------------------------------------------------------|
-| Parameter:  | trail_name                                                    |
-| URL syntax: | {server_url}/reviews?**trail_name**=*<trail_name_value>*       |
+
+### URL syntax: 
+{server_url}/reviews?**trail_name**=*<trail_name_value>*  
 
 Example:
 ```
@@ -31,10 +30,8 @@ curl http://localhost:3000/reviews?trail_name=Half%20Dome
 
 ## Get reviews by username
 
-|             |                                                               |
-|-------------|---------------------------------------------------------------|
-| Parameter:  | username                                                    |
-| URL syntax: | {server_url}/reviews?**username**=*<username_value>*       |
+### URL syntax: 
+{server_url}/reviews?**username**=*<username_value>*
 
 Example:
 ```

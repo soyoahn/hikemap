@@ -19,7 +19,8 @@ Accept all default headers in Postman.
 
 | Header Parameter |  Value | Description |
 | -------------- | ------ | ------------ |
-| Accept | application/json | **Required.** This is the expected response data type.| 
+| Accept | application/json | **Required.** This is the expected response data type.|
+
 ## Request body
 
 Specify a JSON representation of the [`reviews`](reviews.html) object, including only the attributes to change. 

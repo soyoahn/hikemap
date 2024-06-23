@@ -15,26 +15,23 @@ Before you begin:
     .\start-server.bat
  ```
 
-## Get trails by name
+## By name
 💡<span style="color:orange">**Important:**</span> You must URL encode `name` values.
 
 For example for the `Half Dome` value, use `Half%20Dome`.
-|             |                                                               |
-|-------------|---------------------------------------------------------------|
-| Parameter:  | name                                                    |
-| URL syntax: | {server_url}/trails?**name**=*<name_value>*       |
+
+### URL syntax: 
+{server_url}/trails?**name**=*<name_value>* 
 
 Example:
 ```
 curl http://localhost:3000/trails?name=Half%20Dome
 ```
 
-## Get trails by state
+## By state
 
-|             |                                                               |
-|-------------|---------------------------------------------------------------|
-| Parameter:  | state                                                    |
-| URL syntax: | {server_url}/trails?**state**=*<state_value>*       |
+### URL syntax: 
+{server_url}/trails?**state**=*<state_value>* 
 
 Example:
 ```
