@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-Last Updated: 2024-06-22
 
 # Hikemap REST API Overview
  Hikemap resources include `trails`, `reviews`, and `users`.
@@ -32,3 +31,5 @@ Hikemap API has the following resources:
 * [Trails resource](trails.html)
 * [Reviews resource](reviews.html)
 * [Users resource](users.html)
+
+Last Updated: 2024-06-22
