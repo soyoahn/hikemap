@@ -54,80 +54,19 @@
       "elevation_gain": 4380,
       "description": "The Rim-to-Rim hike takes you from one side of the Grand Canyon to the other...",
       "image_url": "https://example.com/grand-canyon-rim-to-rim.jpg"
-    },
-    {
-      "id": "f2c2",
-      "name": "Wildwood Canyon Loop",
-      "city": "Burbank",
-      "state": "CA",
-      "difficulty": "Intermediate",
-      "length": 2,
-      "elevation_gain": 672,
-      "description": "Popular for running and hiking, this is a dog-friendly hike with areas of shade throughout the trail, and a vista of Los Angeles at the summit.",
-      "image_url": "https://www.burbankca.gov/documents/67263/652332/012621+-+PR+-+Wildwood+Park+%285%29.jpg"
-    },
-    {
-      "id": "62b5"
-    },
-    {
-      "id": "4120",
-      "name": "Wildwood Canyon Loop",
-      "city": "Burbank",
-      "state": "CA",
-      "difficulty": "Intermediate",
-      "length": 2,
-      "elevation_gain": 672,
-      "description": "Popular for running and hiking, this is a dog-friendly hike with areas of shade throughout the trail, and a vista of Los Angeles at the summit.",
-      "image_url": "https://www.burbankca.gov/documents/67263/652332/012621+-+PR+-+Wildwood+Park+%285%29.jpg"
-    },
-    {
-      "0": {
-        "name": "Wildwood Canyon Loop",
-        "city": "Burbank",
-        "state": "CA",
-        "difficulty": "Intermediate",
-        "length": 2,
-        "elevation_gain": 672,
-        "description": "Popular for running and hiking, this is a dog-friendly hike with areas of shade throughout the trail, and a vista of Los Angeles at the summit.",
-        "image_url": "https://www.burbankca.gov/documents/67263/652332/012621+-+PR+-+Wildwood+Park+%285%29.jpg"
-      },
-      "id": "6aa3"
-    },
-    {
-      "id": "eb8e",
-      "name": "Wildwood Canyon Loop",
-      "city": "Burbank",
-      "state": "CA",
-      "difficulty": "Intermediate",
-      "length": 2,
-      "elevation_gain": 672,
-      "description": "Popular for running and hiking, this is a dog-friendly hike with areas of shade throughout the trail, and a vista of Los Angeles at the summit.",
-      "image_url": "https://www.burbankca.gov/documents/67263/652332/012621+-+PR+-+Wildwood+Park+%285%29.jpg"
-    },
-    {
-      "id": "d5a6",
-      "name": "Wildwood Canyon Loop",
-      "city": "Burbank",
-      "state": "CA",
-      "difficulty": "Intermediate",
-      "length": 2,
-      "elevation_gain": 672,
-      "description": "Popular for running and hiking, this is a dog-friendly hike with areas of shade throughout the trail, and a vista of Los Angeles at the summit.",
-      "image_url": "https://www.burbankca.gov/documents/67263/652332/012621+-+PR+-+Wildwood+Park+%285%29.jpg"
-    },
-    {
-      "id": "3a16",
-      "name": "Wildwood Canyon Loop",
-      "city": "Burbank",
-      "state": "CA",
-      "difficulty": "Intermediate",
-      "length": 2,
-      "elevation_gain": 672,
-      "description": "Popular for running and hiking, this is a dog-friendly hike with areas of shade throughout the trail, and a vista of Los Angeles at the summit.",
-      "image_url": "https://www.burbankca.gov/documents/67263/652332/012621+-+PR+-+Wildwood+Park+%285%29.jpg"
     }
   ],
   "users": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": "2",
+      "username": "jane_smith",
+      "email": "jane.smith@example.com"
+    },
     {
       "id": "3",
       "username": "mike_jones",
@@ -146,12 +85,12 @@
   ],
   "reviews": [
     {
+      "id": "1",
       "trail_name": "Mount Si",
       "user_id": "1",
       "username": "john_doe",
-      "rating": 4,
-      "comment": "Amazing hike! Highly recommend.",
-      "id": "1"
+      "rating": 5,
+      "comment": "Amazing hike! Highly recommend."
     },
     {
       "id": "2",
@@ -195,3 +134,4 @@
     }
   ]
 }
+
