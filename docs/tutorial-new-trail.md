@@ -36,7 +36,8 @@ All properties are required.
 | `image_url` | string | Full web url |
 
 ## Request body example (JSON)
-💡 **Note:** The unique `id` will be generated when the POST  request is successful.
+> [!NOTE]
+> The unique `id` will be generated when the POST  request is successful.
 ```
     {
       "name": "Wildwood Canyon Loop",
