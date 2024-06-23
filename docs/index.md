@@ -3,13 +3,13 @@ layout: page
 ---
 Last Updated: 2024-06-22
 
-# Hikemap Web API Overview
+# Hikemap REST API Overview
  Hikemap resources include `trails`, `reviews`, and `users`.
  
  For details about hikemap's features, see [About Hikemap](about.html).
 
 # Getting Started
-To run a few basic CRUD functions on the Hikemap API, all you need is a GitHub account and the basic software needed to run cURL commands on json-server.
+To run a few basic CRUD functions on the Hikemap service, all you need is a GitHub account and the basic software needed to run cURL commands with json-server.
 
 💡**Try it out!** Follow this tutorial to make your first Hikemap API call to our sample database:
 * [Set up your development environment](tutorial-getting-started.html)
