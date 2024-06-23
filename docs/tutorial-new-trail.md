@@ -29,15 +29,14 @@ All properties are required.
 | `name` | string | Display name of hiking trail |
 | `city` | string | City name |
 | `state` | string | 2-letter U.S. state code (example: `CA`) |
-| `difficulty` | string | Difficulty rating. Values can be: <ul><li>`Easy`</li><li>`Medium`</li><li>`Difficult`</li><li>`Very Difficult`</li></ul> |
-| `length` | number | Length of trail in miles (mi), roundtrip |
-| `elevation_gain` | number | Total elevation gain for the trail in feet (ft), roundtrip  |
+| `difficulty` | string | Difficulty rating. <br>Values can be: `Easy`, `Medium`, `Difficult`, or `Very Difficult` |
+| `length` | number | Length of trail in miles (mi) |
+| `elevation_gain` | number | Total elevation gain for the trail in feet (ft) |
 | `description` | string | Short description of the trail |
 | `image_url` | string | Full web url |
 
 ## Request body example (JSON)
-> [!NOTE]
-> The unique `id` will be generated when the POST  request is successful.
+💡 **Note:** The unique `id` will be generated when the POST  request is successful.
 ```
     {
       "name": "Wildwood Canyon Loop",

@@ -9,7 +9,7 @@ Updates an existing [`reviews`](reviews.html) resource in the Hikemap service.
 
 The request URL must end with the unique `id` of the `reviews` resource you intend to modify in the database.
 
-The request body must include all properties in the `reviews` object and not just the ones intended for update.
+Note: The request body must include all properties in the `reviews` object and not just the ones intended for update.
 
 ## URL
 `{server_url}/reviews/<id_value>`
