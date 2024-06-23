@@ -1,15 +1,17 @@
 ---
 layout: page
 ---
+Last Updated: 2024-06-22
 
 # Set up your dev environment
 
 These steps assume you're on a supported version of Microsoft Windows and have the following software installed:
-* [GitHub Desktop](https://desktop.github.com)
-    * You'll need a [GitHub account](https://github.com)
+* [GitHub Desktop](https://desktop.github.com) and a [GitHub account](https://github.com)
+* [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4)
+* [Postman](https://www.postman.com/downloads/)
 * [Node.js](https://nodejs.org/en/)
 * [json-server](https://www.npmjs.com/package/json-server)
-* [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell?view=powershell-7.4)
+* cURL
 
 ## Test your development system
 
