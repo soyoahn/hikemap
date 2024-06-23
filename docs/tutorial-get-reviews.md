@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+Last Updated: 2024-06-22
 
 # Get reviews by `trail_name` or `username`
 

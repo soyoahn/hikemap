@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+Last Updated: 2024-06-22
 
 # Get trails by attributes like `name` or `state`
 

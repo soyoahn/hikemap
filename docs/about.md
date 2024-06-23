@@ -1,6 +1,8 @@
 ---
 layout: page
 ---
+Last Updated: 2024-06-22
+
 [< 🏠: Back to API Overview](index.html)
 
 ![Sign showing icons of two hikers](images/hiking.webp)

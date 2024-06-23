@@ -1,6 +1,8 @@
 ---
 layout: page
 ---
+Last Updated: 2024-06-22
+
 # `trails` resource
 
 ## Endpoint
@@ -13,7 +15,7 @@ Contains hiking trail info and stats.
 
 ## Resource properties
 
-Sample `trails` resource
+Sample `trails` resource:
 
 ```js
 {
@@ -31,10 +33,10 @@ Sample `trails` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `id` | number | Unique numerical ID |
+| `id` | number | Unique numeric ID |
 | `name` | string | Display name of hiking trail |
 | `city` | string | City name |
-| `state` | string | State name (U.S.) |
+| `state` | string | 2-letter U.S. state code (example: CA) |
 | `difficulty` | string | Difficulty rating. Values can be: <ul><li>`Easy`</li><li>`Medium`</li><li>`Difficult`</li><li>`Very Difficult`</li></ul> |
 | `length` | number | Length of trail in miles (mi), roundtrip |
 | `elevation_gain` | number | Total elevation gain for the trail in feet (ft), roundtrip  |

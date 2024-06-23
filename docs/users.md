@@ -1,6 +1,8 @@
 ---
 layout: page
 ---
+Last Updated: 2024-06-22
+
 # `users` resource
 
 ## Endpoint
@@ -16,11 +18,11 @@ Contains user information.
 Sample `users` resource:
 
 ```js
-    {
-      "id": "5",
-      "username": "chris_perez",
-      "email": "chris.perez@example.com"
-    },
+  { 
+    "id": "5",
+    "username": "chris_perez",
+    "email": "chris.perez@example.com"
+  }
 ```
 
 | Property name | Type | Description |
@@ -33,10 +35,5 @@ Sample `users` resource:
 
 The `users` resource supports the following operations.
 
-## READ (GET)
-
-* [Get users by ID, username, or email](#resource-properties)
-
-## CREATE (POST)
-
-* [Create a user](tasks-create-task.md/)
+* [Get users by ID, username, or email](#resource-properties) `GET`
+* [Create a user](tasks-create-task.md/) `POST`
