@@ -64,10 +64,12 @@ To test your development system, follow these steps:
 
     <details>
     <summary><b>Tips for troubleshooting</b></summary>
-        
     1. Check your commands for typos
+
     2. Check that you're in the correct directory
+
     3. Look up any error messages to verify that all prerequisite software was installed correctly
+
     4. Check that all prerequisite software is up to date
     </details>
         

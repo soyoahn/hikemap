@@ -35,11 +35,11 @@ Sample `reviews` resource:
 | `user_id` | integer | ID of the [users](users.html) resource |
 | `username` | string | Display name that can be composed of letters, numbers, and underscores |
 | `rating` | integer | Rating ranging from 1 (worst) to 5 (best) |
-| `comment` | string | User's review of this hike |
+| `comment` | string | User's review of the hike |
 
 ## Operations
 
 The `reviews` resource supports the following operations.
 
   * [Get reviews by trail name or username](tutorial-get-reviews.html) `GET`
-  * [Edit a review](tutorial-update-review.html) `PUT``
+  * [Edit a review](tutorial-update-review.html) `PUT`

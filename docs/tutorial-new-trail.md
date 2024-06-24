@@ -6,6 +6,7 @@ Last Updated: 2024-06-22
 # Add a trail `POST` 
 
 Creates a new [`trails`](trails.html) resource in the Hikemap service.
+
 The request body must include all attributes for the new trail.
 
 ## URL
@@ -35,19 +36,37 @@ All properties are required.
 | `description` | string | Short description of the trail |
 | `image_url` | string | Full web url |
 
-## Request body example (JSON)
-💡 **Note:** The unique `id` will be generated when the POST  request is successful.
+## Request body example
+Method: `POST` | Request body: Raw JSON
+
+💡 **Note:** The unique `id` property will be generated for the new object when the POST request is successful.
+
 ```
     {
-      "name": "Wildwood Canyon Loop",
-      "city": "Burbank",
-      "state": "CA",
-      "difficulty": "Intermediate",
-      "length": 2,
-      "elevation_gain": 672,
-      "description": "Popular for running and hiking, this is a dog-friendly hike with areas of shade throughout the trail, and a vista of Los Angeles at the summit.",
-      "image_url": "https://www.burbankca.gov/documents/67263/652332/012621+-+PR+-+Wildwood+Park+%285%29.jpg"
+      "name": "Mt. Astley",
+      "city": "Miami",
+      "state": "FL",
+      "difficulty": "Very Diffcult",
+      "length": 3,
+      "elevation_gain": 9001,
+      "description": "Never gonna give you up. Never gonna let you down.",
+      "image_url": "https://www.giantfreakinrobot.com/wp-content/uploads/2022/08/rick-astley.jpg"
     }  
+```
+
+## Response body example
+```
+    {
+      "id": "e848",
+      "name": "Mt. Astley",
+      "city": "Miami",
+      "state": "FL",
+      "difficulty": "Very Diffcult",
+      "length": 3,
+      "elevation_gain": 9001,
+      "description": "Never gonna give you up. Never gonna let you down.",
+      "image_url": "https://www.giantfreakinrobot.com/wp-content/uploads/2022/08/rick-astley.jpg"
+    }
 ```
 
 ## Response codes
@@ -55,5 +74,5 @@ All properties are required.
 | Status | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 201 | Created | The request has been fulfilled and resulted in a new resource being created. |
-| 400 | Bad Request | Check your request headers. |
+| 400 | Bad Request | Check your URL syntax and your request headers. <br>In Postman, use default headers. |
 | 500 | Internal Server Error | Unexpected error. Check your request body for typos.  |
