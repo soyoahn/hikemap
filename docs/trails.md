@@ -11,7 +11,7 @@ Last Updated: 2024-06-22
 {server_url}/trails
 ```
 
-Contains hiking trail info and stats.
+Contains info that identifies and defines the hiking trail.
 
 ## Resource properties
 
@@ -37,9 +37,9 @@ Sample `trails` resource:
 | `name` | string | Display name of hiking trail |
 | `city` | string | City name |
 | `state` | string | 2-letter U.S. state code (example: CA) |
-| `difficulty` | string | Difficulty rating. Values can be: <ul><li>`Easy`</li><li>`Medium`</li><li>`Difficult`</li><li>`Very Difficult`</li></ul> |
-| `length` | number | Length of trail in miles (mi), roundtrip |
-| `elevation_gain` | number | Total elevation gain for the trail in feet (ft), roundtrip  |
+| `difficulty` | string | Difficulty rating. <br>Values can be: `Easy`, `Medium`, `Difficult`, or `Very Difficult` |
+| `length` | number | Length of trail in miles (mi) |
+| `elevation_gain` | number | Total elevation gain for the trail in feet (ft)  |
 | `description` | string | Short description of the trail |
 | `image_url` | string | Full web url |
 

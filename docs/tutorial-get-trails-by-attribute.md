@@ -7,33 +7,43 @@ Last Updated: 2024-06-22
 
 Endpoint: {base_url}/**[trails](trails.html)**
 
-Before you begin: 
-* Be sure you've completed the first tutorial: [Set up your development environment](tutorial-getting-started.html)
-* Start the server: 
+### Before you begin
+* Complete the starting tutorial: [Set up your development environment](tutorial-getting-started.html)
+* Start the server:
 ```
     cd <your GitHub repo workspace>/hikemap/json-db
     .\start-server.bat
  ```
 
-## By name
-💡<span style="color:orange">**Important:**</span> You must URL encode `name` values.
+## Trails by trail name
+💡**Important:** You must URL encode `name` values.
 
 For example for the `Half Dome` value, use `Half%20Dome`.
 
-### URL syntax: 
-{server_url}/trails?**name**=*<name_value>* 
+### URL parameter: `name`
+`{server_url}/trails?name=<name_value>`
 
-Example:
+### Request example
+Method: `GET` 
 ```
 curl http://localhost:3000/trails?name=Half%20Dome
 ```
 
-## By state
+## Trails by U.S. state
 
-### URL syntax: 
-{server_url}/trails?**state**=*<state_value>* 
+### URL parameter: `state`
+`{server_url}/trails?state=<state_value>`
 
-Example:
+### Request example
+Method: `GET` 
 ```
 curl http://localhost:3000/trails?state=WA
 ```
+
+## Response codes
+
+| Status | Return status | Description |
+| ------------- | ----------- | ----------- |
+| 200 | OK | The request has been fulfilled successfully. |
+| 400 | Bad Request | Check your URL syntax and your request headers. <br>In Postman, use default headers. |
+| 404 | Not Found | This resource does not exist. |
