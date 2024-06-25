@@ -26,12 +26,13 @@ After completing the tutorial under Getting Started, use these further tutorials
 * Users
     * [Remove a user](tutorial-delete-user.html) `DELETE`
 
-Note: Although we don't tutorials available for each CRUD function across all resource types, those functions _are_ supported on all resources.
+Note: Although we don't have tutorials for each CRUD function across all resource types, those functions _are_ supported on all resources.
 
 # Reference
 Hikemap API has the following resources: 
 * [Trails resource](trails.html)
 * [Reviews resource](reviews.html)
 * [Users resource](users.html)
+* [Hikemap error codes](errors.html)
 
 Last Updated: 2024-06-22
