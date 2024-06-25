@@ -16,7 +16,7 @@ The best way to learn is by doing. To speedrun learning everything that Hikemap 
 - `reviews`
 
 2️⃣ Set up your dev environment and run your first hikemap curl command by using this Getting Started tutorial: 
-- [Set up your development environment](tutorial-getting-started.html)
+- [Set up your development environment](https://soyoahn.github.io/hikemap/tutorial-getting-started.html)
 
 3️⃣ Try the other tutorials listed in: 
 - [Hikemap Web API Overview](https://soyoahn.github.io/hikemap/)
