@@ -1,7 +1,7 @@
 # hikemap
 
 # 🤔 What's this repo? 
-[About Hikemap](ahttps://soyoahn.github.io/hikemap/about.html) | The purpose of this repo is to provide a simple way to practice writing REST API documentation in a public repo. After this, I'll have gained the confidence to contribute to actual open source documentation! 
+[About Hikemap](ahttps://soyoahn.github.io/hikemap/about.html) | The purpose of this repo was to give myself a simple way to practice writing REST API documentation in a public repo. After this, I'll hope to have gained the confidence to seek an open source project, learn how I could provide value, and contribute documentation to it.  
 
 # This is not "actual" documentation? 
 No. Hikemap is a fictitious service that uses a simple json db and json-server to read, add, and update hiking trails, users, and trail reviews.
