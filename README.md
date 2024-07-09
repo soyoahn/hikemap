@@ -15,6 +15,8 @@ The best way to learn is by doing. To speedrun learning everything that Hikemap 
 - `users`
 - `reviews`
 
+<mark>**Note:** Hikemap-db.json was created by a fellow classmate in our [UW PCE API Docs](https://www.pce.uw.edu/courses/api-documentation) course. All other writing and editing is my own.</mark>
+
 2️⃣ Set up your dev environment and run your first hikemap curl command by using this Getting Started tutorial: 
 - [Set up your development environment](https://soyoahn.github.io/hikemap/tutorial-getting-started.html)
 
